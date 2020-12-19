@@ -1,0 +1,23 @@
+{
+  "NAME": "الأسماء",
+  "DESC": "يولد أسماء بشرية (غالبًا غربية) بأي تنسيق تريده.",
+  "DEFAULT_TITLE": "اسم",
+  "help_intro": "يمكنك تحديد تنسيقات متعددة بالنقر فوق إدخال. سيتم تحويل السلاسل التالية إلى ما يعادل اسمها العشوائي:",
+  "name": "اسم",
+  "example_FemaleName": "Jane (اسم انثى)",
+  "example_FemaleName_Surname": "Jane Smith",
+  "example_MaleName": "John (اسم الذكر)",
+  "example_MaleName_Surname": "John Smith",
+  "example_Name": "Alex (أي جنس)",
+  "example_Name4": "Jenny, Toby, Ben, Peter",
+  "example_Name_Initial_Surname": "Alex J. Smith",
+  "example_Name_Surname": "Alex Smith",
+  "example_Surname_Name_Initial": "Smith, John P.",
+  "example_fullnames": "Alex Smith or Alex J. Smith",
+  "example_surname": "Smith (لقب)",
+  "type_FemaleName": "الاسم الأول أنثى.",
+  "type_Initial": "حرف كبير ، A-Z.",
+  "type_MaleName": "ذكر الاسم الأول.",
+  "type_Name": "الاسم الاول ذكر او انثى.",
+  "type_Surname": "لقب عشوائي."
+}

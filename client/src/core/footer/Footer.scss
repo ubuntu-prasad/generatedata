@@ -1,0 +1,134 @@
+@import "../../styles/variables";
+
+.footer {
+	flex: 0 0 60px;
+	background-image: url("./images/bg.png");
+	padding: 16px 20px;
+
+	div {
+		margin: 0 auto;
+		display: flex;
+		align-content: space-between;
+		max-width: 1400px;
+		height: 32px;
+
+		ul {
+			flex: 1;
+			display: flex;
+			flex-direction: row;
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			align-items: center;
+
+			li {
+				margin-right: 6px;
+			}
+
+			svg {
+				cursor: pointer;
+			}
+		}
+	}
+
+	a:hover {
+		border-bottom: 0;
+	}
+
+	svg {
+		-webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(black), to(rgba(0, 0, 0, 0.80)));
+	}
+
+	button.generateButton, button.saveButton, button.saveButtonAsMainBtn {
+		font-size: 13px;
+
+		svg {
+			font-size: 15px;
+			margin: 0 5px 0 -5px;
+		}
+	}
+}
+
+.saveButtonAs {
+	button.saveButtonAsMainBtn {
+		border-color: #bde9fb;
+	}
+}
+
+div.selectLocale {
+	width: 130px;
+	display: inline-block;
+}
+
+.selectedLocale span {
+	font-weight: bold;
+}
+
+.scriptVersion a {
+	margin-right: 30px;
+	color: #333333;
+
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+div.controls {
+	margin-right: 20px;
+}
+
+button.saveButton {
+	background-color: $primary-submit;
+	color: white;
+	margin-right: 15px;
+
+	&:hover {
+		background-color: $primary-submit-hover;
+	}
+}
+
+div.saveButtonAs {
+	margin-right: 15px;
+	button {
+		background-color: $primary-submit;
+		color: white;
+
+		&:hover {
+			background-color: $primary-submit-hover;
+		}
+	}
+}
+
+button.saveBtnArrow {
+	min-width: inherit;
+	padding: 0 6px;
+
+	svg {
+		margin: 0;
+	}
+}
+
+.generatorControls {
+	opacity: 0;
+	transition: opacity 200ms ease-in-out;
+
+	&.visible {
+		opacity: 1;
+	}
+}
+
+.saveAsRow {
+	cursor: pointer;
+	background-color: $primary-submit;
+	margin-bottom: 2px;
+	border-radius: 2px;
+	color: white;
+	text-transform: uppercase;
+	font-size: 11px;
+	padding: 6px 12px;
+	z-index: 2;
+
+	&:hover {
+		background-color: $primary-submit-hover;
+	}
+}

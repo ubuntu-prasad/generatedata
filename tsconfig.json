@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "lib": ["es6", "dom", "esnext"],
+    "lib": ["es6", "dom", "esnext", "webworker"],
     "outDir": "./dist/",
 	"sourceMap": true,
 	"esModuleInterop": true,
@@ -12,7 +12,17 @@
     "target": "es6",
 	"jsx": "react",
 	"allowSyntheticDefaultImports": true,
-	"removeComments": false
+	"removeComments": false,
+    "baseUrl": "",
+    "paths": {
+      "~components/*": ["client/src/components/*"],
+      "~utils/*": ["client/src/utils/*"],
+      "~store/*": ["client/src/core/store/*"],
+      "~core/*": ["client/src/core/*"],
+      "~types/*": ["client/types/*"]
+    }
   },
-  "exclude": ["node_modules"]
+  "exclude": [
+    "node_modules"
+  ]
 }

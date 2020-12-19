@@ -1,0 +1,11 @@
+{
+  "EXPORT_TYPE_NAME": "XML",
+  "COL_TITLE": "Node name",
+  "rowLabel": "Node Name",
+  "rowLabelPlural": "Node Names",
+  "invalidNodeNames": "XML node names can must only contain alphanumeric characters and must begin with a letter.",
+  "invalidXmlRecordNodeName": "Please enter a valid XML record node value.",
+  "invalidXmlRootNodeName": "Please enter a valid XML root node value.",
+  "rootNodeName": "Root node name",
+  "recordNodeName": "Record node name"
+}

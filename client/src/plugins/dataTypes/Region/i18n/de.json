@@ -1,0 +1,21 @@
+{
+  "NAME": "Region",
+  "DESC": "Generiert zufällige kanadische Provinzen, Bundesstaaten, Territorien oder Landkreise basierend auf den von Ihnen ausgewählten Optionen.",
+  "DEFAULT_TITLE": "region",
+  "helpText": "Die Unteroptionen Vollständiger Name und Abkürzung bestimmen, ob die Ausgabe die vollständige Zeichenfolge (z. B. \"British Columbia\") oder deren Abkürzung (z. B. \"BC\") enthält. Für Grafschaften in Großbritannien ist die Abkürzung der standardmäßige 3-stellige Chapman-Code.",
+  "explanation": "Hiermit wird gesteuert, welche Regionsnamen von diesem Feld generiert werden.",
+  "full": "Voll",
+  "short": "Kurz",
+  "noCountriesSelected": "Keine Länder ausgewählt.",
+  "countries": "Länder",
+  "country": "Land",
+  "anyRegion": "Jede Region",
+  "source": "Quelle",
+  "format": "Format",
+  "selectRegions": "Wählen Sie Regionen",
+  "anyDesc": "Erzeugt einen beliebigen Regionsnamen.",
+  "countriesDesc": "Generiert Regionen für eines der angegebenen Länder.",
+  "countryRow": "Country Row",
+  "rowDesc": "Auf diese Weise können Sie ein bestimmtes Länderfeld in Ihrem Datensatz bestimmen, dessen Quelle Länder-Plugins sind. Es werden Regionen generiert, die dem Wert in diesem Feld zugeordnet sind.",
+  "row": "Reihe"
+}

@@ -1,0 +1,15 @@
+@import "../../styles/variables.scss";
+
+.accountPage {
+	.numGeneratedRows {
+		font-size: 32px;
+	}
+}
+
+.hidden {
+	opacity: 0;
+}
+.shown {
+	opacity: 1;
+	transition: opacity 200ms ease-in-out;
+}

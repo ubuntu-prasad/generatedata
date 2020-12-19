@@ -1,0 +1,9 @@
+FROM node:12-alpine AS alpine
+
+ENV HOME=/home/app/generatedata
+
+WORKDIR $HOME/client
+COPY package.json yarn.lock $HOME/client/
+RUN yarn install --network-timeout 100000 && npm install -g grunt-cli
+COPY . $HOME/client/
+RUN yarn dockerBuild

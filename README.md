@@ -1,6 +1,6 @@
 # generatedata.com
 
-[![Build Status](https://travis-ci.org/benkeen/generatedata.svg?branch=master)](https://travis-ci.org/benkeen/generatedata)
+[![Build Status](https://travis-ci.com/benkeen/generatedata.svg?branch=master)](https://travis-ci.com/benkeen/generatedata)
 [![Coverage Status](https://coveralls.io/repos/github/benkeen/generatedata/badge.svg?branch=master)](https://coveralls.io/github/benkeen/generatedata?branch=master)
 
 This is the repo for the downloadable version of [generatedata.com](http://www.generatedata.com). The 
@@ -28,8 +28,10 @@ the documentation for more info.
 
 ## `master` = v4 rewrite
 
-The master branch of this repo now contains the ongoing work for the v4 rewrite. The generatedata.com site, the 
-documentation and everything else is for up to the v3 branch. You can find that code in the `v3` branch. 
+The master branch of this repo now contains the ongoing work for the v4 rewrite, temporarily found here:
+http://generatedata4.com
+
+The generatedata.com site, the documentation and everything else is for up to the v3 branch. You can find that code in the `v3` branch. 
 
 Although I'm no longer working on that branch, PRs and bug fixes are very welcome! Just branch off `v3` and put 
 your PRs in against that.
@@ -46,6 +48,10 @@ of this script.
 - Also: [@LaiNathaniel's repo](https://github.com/LaiNathaniel/docker-generatedata)
 - And [Andy Shinn's instructions](https://github.com/benkeen/generatedata/pull/269)
 
+### Kubernetes Helm Chart
+
+Dmitry Rubtsov has put up a Helm chart here:
+https://github.com/dmirubtsov/generatedata-helm
 
 ### Vagrant 
 
@@ -68,6 +74,8 @@ In addition to the many fine folk who submit bug reports, a big thanks to the fo
 https://github.com/benkeen/generatedata/graphs/contributors
 
 ## Changelog
+
+4.0.0 - **In development**: http://generatedata4.com
 
 3.4.1 - Nov 24, 2019 
 - Excel Export Type updated for new PHP lib, thanks [@adibaby](https://github.com/adibaby)!

@@ -1,0 +1,8 @@
+{
+  "NAME": "عنوان الشارع",
+  "DESC": "يولد عناوين شوارع عشوائية.",
+  "DEFAULT_TITLE": "عنوان",
+  "apNum": "أب #",
+  "poBox": "ص. صندوق",
+  "streetTypes": "St.,St.,Street,Road,Rd.,Rd.,Ave,Av.,Avenue"
+}

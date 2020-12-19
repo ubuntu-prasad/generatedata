@@ -1,0 +1,11 @@
+{
+  "EXPORT_TYPE_NAME": "XML",
+  "COL_TITLE": "Nom du nœud",
+  "rowLabel": "Nom du nœud",
+  "rowLabelPlural": "Noms des nœuds",
+  "invalidNodeNames": "Les noms de nœuds XML ne peuvent contenir que des caractères alphanumériques et doivent commencer par une lettre.",
+  "invalidXmlRecordNodeName": "Veuillez saisir une valeur de nœud d'enregistrement XML valide.",
+  "invalidXmlRootNodeName": "Veuillez saisir une valeur de nœud racine XML valide.",
+  "rootNodeName": "Nom du nœud racine",
+  "recordNodeName": "Enregistrer le nom du nœud"
+}

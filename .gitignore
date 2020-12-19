@@ -3,7 +3,12 @@ cache/*
 .buildpath
 .idea*
 node_modules/*
-build/*
-config/config.client.js
-server/config.server.js
 dist/
+.config
+.env
+data/db
+!data/db/nodelete.txt
+client/_env.ts
+coverage
+yarn-error.log
+cypress/

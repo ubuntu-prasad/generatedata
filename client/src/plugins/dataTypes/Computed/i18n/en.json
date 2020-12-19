@@ -1,0 +1,21 @@
+{
+  "NAME": "Computed",
+  "DESC": "The Computed data type lets you combine the data from any other row or rows, and change it / combine the information and more. It uses underscorejs as the templating engine.",
+  "DEFAULT_TITLE": "computed",
+  "compositeDivision": "division",
+  "compositeHelp3": "Here are a few examples:",
+  "compositeHelp4": "Display a value from row 6: <b>{{ROW6}}</b>",
+  "compositeHelp5": "Assuming row 1 and row 2 contain random numbers, the following are examples of some simple math:",
+  "compositeHelp6": "If row 1 is even, display \"even\", otherwise display the values from row 2.",
+  "compositeMultiplication": "multiplication",
+  "compositeNa": "N/A",
+  "compositeSubtraction": "subtraction",
+  "rowPlaceholder": "Outputs the value from any other row in the grid",
+  "rowNumPlaceholder": "Outputs the current row number of generated data set. So if it's on the 10,000th row, this will have a value of 10000.",
+  "additionalInfo": "Contains additional information about each row.",
+  "colIndex": "the column index",
+  "randomUniqueId": "a random unique ID for the row",
+  "dataType": "the Data Type",
+  "generatedDataObj": "the generated data. This is an object with a `display` property, and perhaps additional metadata about it.",
+  "objExpl": "To examine the full content of this object, use: "
+}

@@ -1,5 +1,0 @@
-{
-	"NAME": "Country",
-	"DESC": "Generates a random country name, with the option to limit the subset to those countries entered via the interface.",
-	"limitResults": "Limit countries to global selection"
-}

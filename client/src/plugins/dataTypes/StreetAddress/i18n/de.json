@@ -1,0 +1,8 @@
+{
+  "NAME": "Straße",
+  "DESC": "Generiert zufällige Straßenadressen .",
+  "DEFAULT_TITLE": "adresse",
+  "apNum": "Ap #",
+  "poBox": "Postfach",
+  "streetTypes": "St., St., Straße, Straße, Rd., Rd., Ave, Av., Avenue"
+}

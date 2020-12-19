@@ -1,0 +1,14 @@
+.row {
+	margin-bottom: 10px;
+
+	input {
+		margin: 0 6px 0 0;
+	}
+
+	&>* {
+		margin-right: 10px;
+	}
+	&:last-child {
+		margin-right: 0;
+	}
+}

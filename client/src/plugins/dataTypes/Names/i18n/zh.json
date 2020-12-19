@@ -1,0 +1,23 @@
+{
+  "NAME": "名字",
+  "DESC": "以您需要的任何格式生成人名（主要是西方的）。",
+  "DEFAULT_TITLE": "名称",
+  "help_intro": "您可以通过单击Enter指定多种格式。 以下字符串将被转换为其等效的随机名称：",
+  "name": "名称",
+  "example_FemaleName": "Jane (女名)",
+  "example_FemaleName_Surname": "Jane Smith",
+  "example_MaleName": "John (男性名字)",
+  "example_MaleName_Surname": "John Smith",
+  "example_Name": "Alex (任何性别)",
+  "example_Name4": "Jenny, Toby, Ben, Peter",
+  "example_Name_Initial_Surname": "Alex J. Smith",
+  "example_Name_Surname": "Alex Smith",
+  "example_Surname_Name_Initial": "Smith, John P.",
+  "example_fullnames": "Alex Smith or Alex J. Smith",
+  "example_surname": "Smith (姓)",
+  "type_FemaleName": "女名。",
+  "type_Initial": "大写字母A-Z。",
+  "type_MaleName": "男性名字。",
+  "type_Name": "男性或女性的名字。",
+  "type_Surname": "随机姓氏。"
+}

@@ -1,15 +1,16 @@
 language: node_js
 node_js:
-  - "10"
-  - node
+  - 12
 
-script:
+install:
+  - nvm install 12
   - yarn install
-  - yarn build
-  - yarn test
+
+before_script:
+  - cp .env.default .env && yarn buildClient
 
 jobs:
   include:
     - stage: Produce Coverage
       node_js: node
-      script: yarn build && jest --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage
+      script: yarn buildClient && jest --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage

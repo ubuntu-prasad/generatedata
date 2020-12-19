@@ -1,0 +1,21 @@
+{
+  "NAME": "Regio",
+  "DESC": "Genereert willekeurige Canadese provincies, staten, territoria of provincies op basis van de opties die u selecteert.",
+  "DEFAULT_TITLE": "regio",
+  "helpText": "De subopties Volledige naam en afkorting bepalen of de uitvoer de volledige tekenreeks (bijvoorbeeld \"British Columbia\") of de afkorting ervan (bijvoorbeeld \"BC\") zal bevatten. Voor Britse provincies is de afkorting de standaard Chapman-code van 3 tekens.",
+  "explanation": "Dit bepaalt welke regionamen door dit veld worden gegenereerd.",
+  "full": "Vol",
+  "short": "Kort",
+  "noCountriesSelected": "Geen landen geselecteerd.",
+  "countries": "Landen",
+  "country": "Land",
+  "anyRegion": "Elke regio",
+  "source": "Bron",
+  "format": "Formaat",
+  "selectRegions": "Selecteer Regio's",
+  "anyDesc": "Genereert een regionale naam.",
+  "countriesDesc": "Genereert regio's voor elk van de opgegeven landen.",
+  "countryRow": "Country Row",
+  "rowDesc": "Hiermee kunt u een specifiek landveld in uw dataset lokaliseren dat landplug-ins als bron heeft. Het genereert regio's die zijn toegewezen aan de waarde in dat veld.",
+  "row": "Rij"
+}
